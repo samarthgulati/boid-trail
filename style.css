@@ -1,7 +1,9 @@
-html {
+html,body  {
   overflow: hidden;
   height: 100%;
-}
-body {
   margin: 0;
+}
+
+canvas {
+  touch-action: none;
 }
